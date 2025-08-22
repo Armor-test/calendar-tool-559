@@ -1,0 +1,38 @@
+# CODEOWNERS file for calendar-tool-559
+# Global owners - will be requested for all PRs
+* @Armor-test/grp-ui @Armor-test/dept-test @Armor-test/squad-search
+
+# Directory ownership
+/third_party/ @Armor-test/team-reporting @Armor-test/squad-cloud
+/internal/ @Armor-test/dept-security @Armor-test/dept-release
+/hooks/ @Armor-test/grp-storage @Armor-test/grp-search @Armor-test/dept-billing
+/spec/ @Armor-test/dept-release @Armor-test/grp-api
+/common/ @Armor-test/squad-reporting @Armor-test/grp-api @Armor-test/grp-search
+/tools/ @Armor-test/squad-search @Armor-test/team-frontend
+/src/ @Armor-test/team-logging @Armor-test/unit-design
+/dist/ @Armor-test/dept-reporting @Armor-test/team-security
+/deploy/ @Armor-test/team-notifications @Armor-test/unit-devops @Armor-test/squad-database
+/migrations/ @Armor-test/grp-search @Armor-test/unit-design @Armor-test/squad-performance
+/security/ @Armor-test/squad-performance @Armor-test/unit-cloud
+/data/ @Armor-test/squad-ml @Armor-test/grp-api
+
+# File type ownership
+*.html @Armor-test/unit-cloud @Armor-test/team-reporting
+*.sql @Armor-test/dept-test @Armor-test/dept-release @Armor-test/dept-security
+*.md @Armor-test/squad-ux @Armor-test/squad-cloud
+*.tsx @Armor-test/team-governance @Armor-test/squad-research
+*.rb @Armor-test/dept-billing @Armor-test/squad-apps @Armor-test/squad-tooling
+*.lock @Armor-test/squad-mobile @Armor-test/squad-database @Armor-test/dept-test
+*.properties @Armor-test/grp-ui @Armor-test/squad-qa @Armor-test/squad-mobile
+*.config @Armor-test/dept-test @Armor-test/dept-security
+*.xml @Armor-test/squad-api @Armor-test/dept-security @Armor-test/unit-devops
+*.css @Armor-test/grp-payments @Armor-test/squad-research
+*.yml @Armor-test/squad-product @Armor-test/grp-integration @Armor-test/squad-apps
+*.rs @Armor-test/dept-ui @Armor-test/dept-reliability @Armor-test/grp-integration
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
